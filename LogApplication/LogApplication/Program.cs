@@ -15,7 +15,7 @@ namespace LogApplication
             JobLogger logger = new JobLogger(LogType.Database | LogType.Console);
             logger.LogMessage("Message log test", MessageType.Error | MessageType.Warning);
             
-            Console.WriteLine("------Eng logs-------");          
+            Console.WriteLine("------Eng logs--------");          
         }
     }
   
