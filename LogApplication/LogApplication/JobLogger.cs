@@ -85,9 +85,7 @@ namespace LogApplication
                                 command.Parameters.AddWithValue("@param5", messageResult.Replace("type", MessageType.Message.ToString()));
                                 command.Parameters.AddWithValue("@param6", MessageType.Message);
                                 command.ExecuteNonQuery();
-                            }     
-
-                            connection.Close();
+                            }    
                         }
                     }
                 }
